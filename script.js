@@ -1,7 +1,7 @@
 //open trip link https://opentripmap.com/en/#17.25/30.28881/-97.74212 
 
 //apikey will be put away for now in order to not get messgaes from gitguardian on piracy - mickey who had to deal with one weather map api so far
-var apiKey = "5ae2e3f221c38a28845f05b6e1bed42d25cd90333367bf8a6e23fe6f";
+var apiKey = "";
 
 var austinTX = "https://www.openstreetmap.org/node/1801308037";
 
