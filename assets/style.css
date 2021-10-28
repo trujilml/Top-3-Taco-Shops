@@ -10,8 +10,9 @@ h1 {
 .row {
   background-image: url(./jarritos-mexican-soda-E0txIcqePac-unsplash.jpg);
   background-size: cover;
-  background-position: 80%;
+  background-position: 100%;
   background-attachment: fixed;
+  
   }
 
   #addArea {
