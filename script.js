@@ -1,4 +1,5 @@
 //open trip link https://opentripmap.com/en/#17.25/30.28881/-97.74212 
+//mapbox 
 
 //apikey will be put away for now in order to not get messgaes from gitguardian on piracy - mickey who had to deal with one weather map api so far
 var apiKey = "";
@@ -60,7 +61,7 @@ var mapOfAustinTacoPlaces = "http://api.opentripmap.com/0.1/en/places/bbox?";
 
 
 var searchCity = $(".btn"); 
-
+//no search or click button necessary , all clickable by links
 
 localStorage.saveSearch;
 
