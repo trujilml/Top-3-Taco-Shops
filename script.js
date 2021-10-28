@@ -26,7 +26,8 @@ var mapOfAustinTacoPlaces = "http://api.opentripmap.com/0.1/en/places/bbox?";
 //austin long max =  30.3129595
 //austin latitude max = -98.1403426
 //& kinds=foods
-
+//&format-geojson
+//apikey=xxxxx"
 
 
 //review devtools of opentrip map io examples
