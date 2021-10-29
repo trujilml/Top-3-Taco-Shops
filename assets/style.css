@@ -7,13 +7,19 @@ h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
-.row {
+.bg {
   background-image: url(./jarritos-mexican-soda-E0txIcqePac-unsplash.jpg);
+  height: 100%;
   background-size: cover;
   background-position: 100%;
-  background-attachment: fixed;
-  
   }
+
+.row {
+  padding: 5px;
+  margin-left: 15%;
+  margin-bottom: 50%;
+  position:relative;
+}
 
   #addArea {
     border: 1px solid black;
