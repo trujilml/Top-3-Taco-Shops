@@ -10,14 +10,17 @@ h1 {
 .bg {
   background-image: url(./jarritos-mexican-soda-E0txIcqePac-unsplash.jpg);
   height: 100%;
+  
   background-size: cover;
   background-position: 100%;
   }
+
+ 
 p {
   font-size: 20px;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: whitesmoke;
-    text-align: center;
+    
 
 }
 /* .row {
@@ -39,6 +42,7 @@ p {
     border-radius: 15px;
     background-size: cover;
     height :40%;
+    
     
 }
   /* #searchBtn {
