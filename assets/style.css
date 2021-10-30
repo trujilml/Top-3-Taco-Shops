@@ -1,8 +1,7 @@
 h1 {
     text-align: center;
     padding: 10px 25px;
-    background-image: linear-gradient(45deg, #f1a18d 0%, #f83403 52%, #5e1701 90%);
-    color: white;
+    color: red;
     margin: 0;  
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
@@ -19,54 +18,34 @@ h1 {
 p {
   font-size: 20px;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: whitesmoke;
-    
-
+    color: red;
 }
-/* .row {
-  padding: 5px;
-  margin-left: 15%;
-  margin-bottom: 50%;
-  position:relative;
-} */
 
-  #addArea {
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 20px;
-    margin-top: 18px;
-    width: 50%;
-  }
+p1 {
+  font-size: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
   
-  .img-rounded{
+  
+.img-rounded{
     border-radius: 15px;
     background-size: cover;
     height :40%;
     
     
 }
-  /* #searchBtn {
-    margin-bottom: 25px;
-    background:#f1a18d;
-    color: whitesmoke;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 700;
-    text-shadow: 0 0 6px #333;
-    width: 50%;
-    border-radius: 5px;
-  } */
-
-  h2{
+h2{
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: whitesmoke;
+    color: white;
     text-align: center;
   }
    h3 {
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: whitesmoke;
+    color: white;
     text-align: center;
    }
   
