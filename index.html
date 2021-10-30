@@ -1,11 +1,236 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taco Shop Locater</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
+
+  <title>Taco Shop Locator</title>
+
 </head>
+
 <body>
-    
+  <h1>Taco Shops 🌮 in North Austin</h1>
+
+  <p class="weather-element #ffffff white"></p>
+
+  <div class="bg">
+    <div class="row" id="cards">
+      <div class="row mx-md-n ">
+        <div class="col m3 px-md-5">
+          <div class="p-3 #bf360c deep-orange darken-4 img-rounded">
+            <h2>Torchy's Tacos</h2>
+            <p>"Damn Good Tacos"</p>
+            <p1>1822 S Congress Ave, Austin, TX 78704<br>
+              Phone: (512) 916-9025
+            </p1>
+            <h3>Top picks:</h3>
+            <div class="tooltip">Crossroads
+              <span class="tooltiptext">
+                smoked beef brisket, grilled onions, jalapeños, cilantro, avocado & jack cheese with tomatillo sauce on
+                a corn tortilla.
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Baja Shrimp
+              <span class="tooltiptext">
+                fried shrimp, cooked cabbage slaw, pickled onions & jalapeños, cotija cheese,
+                cilantro, and a lime wedge with chipotle sauce on a corn tortilla.
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Green Chile Pork
+              <span class="tooltiptext">
+                pork carnitas, green chiles, cotija cheese, cilantro, onions, and a lime wedge with
+                tomatillo sauce on a corn tortilla.
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Trailer Park
+              <span class="tooltiptext">
+                fried chicken, green chiles, lettuce, pico de gallo & cheddar jack cheese with poblano sauce on a flour
+                tortilla. “get it trashy” – take off the lettuce & add queso (cal 382).
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Fried Avocado
+              <span class="tooltiptext">
+                fried avocados, refried pinto beans, pico de gallo, lettuce, and cheddar jack cheese with poblano sauce
+                on a corn tortilla
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col m3 px-md-5">
+          <div class="p-3 #bf360c deep-orange darken-4 img-rounded">
+            <h2>Taco Deli</h2>
+            <p>Award-winning tacos and salsa</p>
+            <p1>12001 Burnet Rd, Austin, TX 78758 <br>
+              Phone: (512) 339-1700
+            </p1>
+            <h3>Top picks:</h3>
+            <div class="tooltip">Cowboy
+              <span class="tooltiptext">
+                dry-rubbed beef tenderloin, grilled corn, caramelized onion, roasted peppers, guacamole, queso fresco
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Shrimposito
+              <span class="tooltiptext">
+                grilled texas gulf shrimp, chipotle-sesame adobo, queso fresco, avocado
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Puerco Verde
+              <span class="tooltiptext">
+                Organic pork shoulder, salsa verde, queso fresco, cilantro, onion
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Pollo Fantastico
+              <span class="tooltiptext">
+                shredded chicken, roasted green chile sauce, crema mexicana, green onion
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Freakin' Vegan
+              <span class="tooltiptext">
+                organic refried black beans, avocado, pico de gallo
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col m3 px-md-5">
+          <div class="p-3 #bf360c deep-orange darken-4 img-rounded">
+            <h2>Veracruz All Natural</h2>
+            <p>Featured on Food Network's 5 Best Tacos in America</p>
+            <h3>Favorites</h3>
+            <div class="tooltip">Steak
+              <span class="tooltiptext">
+                Fajita beef, cilantro, onions
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Fish Taco
+              <span class="tooltiptext">
+                Grilled tilapia, cabbage, mango pico, avocado, cheese, chipotle mayo salsa
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Al Pastor
+              <span class="tooltiptext">
+                Marinated pork, cilantro, onions
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Chicken
+              <span class="tooltiptext">
+                Fajita chicken, cilantro, onions
+              </span>
+            </div>
+            </br>
+            <div class="tooltip">Migas
+              <span class="tooltiptext">
+                Eggs, tortilla chips, avocado, pico de gallo, cheese
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- modal 2.0 - oops I did it again -->
+
+
+<!-- Simple pop-up dialog box containing a form -->
+<div class="p-3 #B71C1C red darken-2 center-align">
+  <h2>What's your favorite taco?</h2>
+  
+<dialog id="favDialog">
+  <form method="dialog">
+    <p><label>🌮The Taco List - please choose one:</label></p>
+      <select id = "select" name = "taco">
+        <option>Crossroads</option>
+        <option>Baja Shrimp</option>
+        <option>Green Chile Pork</option>
+        <option>Trailer Park</option>
+        <option>Fried Avocado</option>
+        <option>Cowboy</option>
+        <option>Shrimposito</option>
+        <option>Puerco Verde</option>
+        <option>Pollo Fantastico</option>
+        <option>Freakin' Vegan</option>
+        <option>Steak</option>
+        <option>Fish Taco</option>
+        <option>Al Pastor</option>
+        <option>Chicken</option>
+        <option>Migas</option>
+      </select>
+
+
+    <menu>
+      <button value="cancel" class = "white black-text btn">Cancel</button>
+      <button id="confirmBtn" value="default" class = "white black-text btn">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails" class = "white black-text btn" href="#">Choose your favorite Taco!</button>
+</menu>
+
+<output aria-live="polite"></output>
+</div>
+
+
+
+
+    <!-- <div class="p-3 #B71C1C red darken-2 center-align">
+    <h2>What's your favorite taco?</h2>
+    <a class='white black-text dropdown-trigger btn' href='#' data-target='dropdown1'>Choose a taco!</a>
+
+    Dropdown Structure for taco list - SHOULD NOT BE VISIBLE-->
+    <!-- <ul id='dropdown1' class='dropdown-content'>
+    <li class="divider" tabindex="-1">Torchy's Tacos</li>
+    <li><a href="#!">Crossroads</a></li>
+    <li><a href="#!">Baja Shrimp</a></li>
+    <li><a href="#!">Green Chile Pork</a></li>
+    <li><a href="#!">Trailer Park</a></li>
+    <li><a href="#!">Fried Avocado</a></li>
+    <li class="divider" tabindex="-1">Taco Deli</li>
+    <li><a href="#!">Cowboy</a></li>
+    <li><a href="#!">Shrimposito</a></li>
+    <li><a href="#!">Puerco Verde</a></li>
+    <li><a href="#!">Pollo Fantastico</a></li>
+    <li><a href="#!">Freakin' Vegan</a></li>
+    <li class="divider" tabindex="-1">Veracruz All Natural</li>
+    <li><a href="#!">Steak</a></li>
+    <li><a href="#!">Fish Taco</a></li>
+    <li><a href="#!">Al Pastor</a></li>
+    <li><a href="#!">Chicken</a></li>
+    <li><a href="#!">Migas</a></li>
+    </ul> -->
+<!-- 
+    <p id = "#select-result"></p> -->
+        
+    <!-- </div> --> 
+
+
+  <!-- </div> -->
+  <div id='map' style='width: 400px; height: 300px;'></div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"> </script>
+  <script src="weatherpart.js"></script>
+  <script src="choose-taco-modal.js"></script>
 </body>
+
 </html>

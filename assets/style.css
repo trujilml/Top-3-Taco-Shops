@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+  padding: 10px 25px;
+  color: red;
+  margin: 0;  
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bg {
+background-image: url(./jarritos-mexican-soda-E0txIcqePac-unsplash.jpg);
+height: 100%;
+
+background-size: cover;
+background-position: 100%;
+}
+
+
+p {
+font-size: 20px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: red;
+}
+
+p1 {
+font-size: 20px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.img-rounded{
+  border-radius: 15px;
+  background-size: cover;
+  height :40%;
+  
+  
+}
+h2{
+  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-align: center;
+}
+ h3 {
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-align: center;
+ }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip .tooltiptext {
+    top: -80px;
+    left: 110%;
+    
+  }
+    
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+    
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+/* for choose a taco button and hover features*/
+.btn {
+  border-radius: 15px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  background-color: white;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+  color: gray;
+}
+  
