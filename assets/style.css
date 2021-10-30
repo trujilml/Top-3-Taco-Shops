@@ -15,7 +15,7 @@ h1 {
   }
 p {
   font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: whitesmoke;
     text-align: center;
 
@@ -35,7 +35,13 @@ p {
     width: 50%;
   }
   
-  #searchBtn {
+  .img-rounded{
+    border-radius: 15px;
+    background-size: cover;
+    height :40%;
+    
+}
+  /* #searchBtn {
     margin-bottom: 25px;
     background:#f1a18d;
     color: whitesmoke;
@@ -45,14 +51,19 @@ p {
     text-shadow: 0 0 6px #333;
     width: 50%;
     border-radius: 5px;
-  }
+  } */
 
   h2{
     font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: whitesmoke;
     text-align: center;
   }
-  
+   h3 {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    text-align: center;
+   }
   
   
