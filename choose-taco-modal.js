@@ -1,4 +1,15 @@
-//will utilize jquery ui, modal and interactive selection menu from the three taco places showing 5 tacos (15 tacos total)
-//refer kevin's pages document on current site looking mockup 
+$('.dropdown-trigger').dropdown();
 
-//"what's your favorite taco?" "Choose a taco as a button element"
+$("dropdown-content").localStorage;
+
+// window.localStorage.setItem("#dropdown-content");
+
+window.localStorage.getItem(".li");
+
+
+// var tacoTotal = 0;
+
+// var faveTaco = $(".dropdown-content");
+
+// var local = localStorage.setItem(faveTaco, tacoTotal);
+// tacoTotal += 1;

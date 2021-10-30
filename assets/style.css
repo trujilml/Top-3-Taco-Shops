@@ -41,6 +41,18 @@ h1 {
     border-radius: 5px;
   }
 
-  
-  
+/* for choose a taco button and hover features*/
+.btn {
+  border-radius: 15px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  background-color: white;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+  color: gray;
+}
   
