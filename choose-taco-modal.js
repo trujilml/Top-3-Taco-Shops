@@ -1,15 +1,14 @@
 $('.dropdown-trigger').dropdown();
 
-$("dropdown-content").localStorage;
 
-// window.localStorage.setItem("#dropdown-content");
-
-window.localStorage.getItem(".li");
+// localStorage.setItem(".li", "tabindex");
 
 
-// var tacoTotal = 0;
+// $("dropdown-content").localStorage.setItem;
 
-// var faveTaco = $(".dropdown-content");
+var tacoTotal = 0;
 
-// var local = localStorage.setItem(faveTaco, tacoTotal);
-// tacoTotal += 1;
+var faveTaco = $("#dropdown1").append("<p>" + ".li" + "</p>");
+
+var local = localStorage.setItem(faveTaco, tacoTotal);
+tacoTotal += 1;
