@@ -61,12 +61,58 @@
     </div>
 
 
-    <div class="p-3 #B71C1C red darken-2 center-align">
+<!-- modal 2.0 - oops I did it again -->
+
+
+<!-- Simple pop-up dialog box containing a form -->
+<div class="p-3 #B71C1C red darken-2 center-align">
+  <h2>What's your favorite taco?</h2>
+  
+<dialog id="favDialog">
+  <form method="dialog">
+    <p><label>🌮The Taco List - please choose one:</label></p>
+      <select id = "select" name = "taco">
+        <option>Crossroads</option>
+        <option>Baja Shrimp</option>
+        <option>Green Chile Pork</option>
+        <option>Trailer Park</option>
+        <option>Fried Avocado</option>
+        <option>Cowboy</option>
+        <option>Shrimposito</option>
+        <option>Puerco Verde</option>
+        <option>Pollo Fantastico</option>
+        <option>Freakin' Vegan</option>
+        <option>Steak</option>
+        <option>Fish Taco</option>
+        <option>Al Pastor</option>
+        <option>Chicken</option>
+        <option>Migas</option>
+      </select>
+
+
+    <menu>
+      <button value="cancel" class = "white black-text btn">Cancel</button>
+      <button id="confirmBtn" value="default" class = "white black-text btn">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails" class = "white black-text btn" href="#">Choose your favorite Taco!</button>
+</menu>
+
+<output aria-live="polite"></output>
+</div>
+
+
+
+
+    <!-- <div class="p-3 #B71C1C red darken-2 center-align">
     <h2>What's your favorite taco?</h2>
     <a class='white black-text dropdown-trigger btn' href='#' data-target='dropdown1'>Choose a taco!</a>
 
-     <!-- Dropdown Structure for taco list-->
-    <ul id='dropdown1' class='dropdown-content'>
+    Dropdown Structure for taco list - SHOULD NOT BE VISIBLE-->
+    <!-- <ul id='dropdown1' class='dropdown-content'>
     <li class="divider" tabindex="-1">Torchy's Tacos</li>
     <li><a href="#!">Crossroads</a></li>
     <li><a href="#!">Baja Shrimp</a></li>
@@ -85,17 +131,14 @@
     <li><a href="#!">Al Pastor</a></li>
     <li><a href="#!">Chicken</a></li>
     <li><a href="#!">Migas</a></li>
-    </ul>
+    </ul> -->
+<!-- 
+    <p id = "#select-result"></p> -->
         
-    </div>
+    <!-- </div> --> 
 
 
-
-    <!-- <div>
-      <img src="assets/jarritos-mexican-soda-E0txIcqePac-unsplash.jpg" width="100%" alt="image of tacos" />
-      <div id="left" class="col m1"></div>
-    </div> -->
-  </div>
+  <!-- </div> -->
   <div id='map' style='width: 400px; height: 300px;'></div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
