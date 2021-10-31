@@ -103,4 +103,9 @@ h2{
   background-color: lightgrey;
   color: gray;
 }
+
+#map {
+  height: 30vh;
+  width: 99vw;
+}
   

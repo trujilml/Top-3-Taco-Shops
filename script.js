@@ -8,8 +8,8 @@ var map = new mapboxgl.Map({
   container: 'map',
   
   style: 'mapbox://styles/fishdestroyer/ckvaf22yi1dyv14teexn4pdq1', 
-  center: [-97.700 , 30.255],
-  zoom: 8
+  center: [-97.740 , 30.274],
+  zoom: 11
 
 });
 
