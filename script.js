@@ -14,7 +14,7 @@ var map = new mapboxgl.Map({
 
 });
 
-
+// researched mapbox.com- followed tutorials and coding guidance//
 map.on('load', () => {
   map.addSource('places', {
   'type': 'geojson',
@@ -25,6 +25,7 @@ map.on('load', () => {
   'type': 'Feature',
   'properties': {
   'description':
+  // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
   '<strong>Veracruz All Natural</strong><p>All natural AND good taste</p>'
   },
   'geometry': {
@@ -36,6 +37,7 @@ map.on('load', () => {
   'type': 'Feature',
   'properties': {
   'description':
+  // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
   '<strong>Torchys Tacos</strong><p>Damn good tacos!</p>'
   },
   'geometry': {
@@ -47,6 +49,7 @@ map.on('load', () => {
   'type': 'Feature',
   'properties': {
   'description':
+  // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
   '<strong>TacoDeli</strong><p>Bienvenidos Yall</p>'
   },
   'geometry': {
@@ -60,6 +63,7 @@ map.on('load', () => {
   
   map.addLayer({
   'id': 'places',
+  //need to change 'circle' back to original icon//
   'type': 'circle',
   'source': 'places',
   'paint': {
