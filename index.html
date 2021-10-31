@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
   <link rel="stylesheet" href="./assets/style.css" />
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css" rel="stylesheet">
@@ -15,9 +18,15 @@
 </head>
 
 <body>
-  <h1>Taco Shops 🌮 in North Austin</h1>
 
-  <p class="weather-element #ffffff white"></p>
+  <header class = "intro">
+  <div class="row" id="header">
+  <h1 class = "col l2 red darken-1 white-text left-align" >TOP 3</h1>
+  <h3 class = "col m6 white red-text">Taco Shops 🌮 in North Austin</h3>
+  <h5 class = "col s2 white black-text right-align"><em>Any day is a good day for a taco.</em></h5>
+  <p class="weather-element white right-align"></p>
+  </div>
+  </header>
 
   <div class="bg">
     <div class="row" id="cards">
