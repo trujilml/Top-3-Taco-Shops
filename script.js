@@ -9,7 +9,7 @@ var map = new mapboxgl.Map({
   
   style: 'mapbox://styles/fishdestroyer/ckvaf22yi1dyv14teexn4pdq1', 
   center: [-97.740 , 30.274],
-  zoom: 11
+  zoom: 10.5
 
 });
 
