@@ -26,11 +26,11 @@ map.on('load', () => {
   'properties': {
   'description':
   // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-  '<strong>Veracruz All Natural</strong><p>All natural AND good taste</p>'
+  '<strong>Veracruz All Natural</strong><p>4.5 Star yelp rating-specialty is authentic Mexican food made with fresh ingredients</p>'
   },
   'geometry': {
   'type': 'Point',
-  'coordinates': [-97.788, 30.231]
+  'coordinates': [-97.794, 30.231]
   }
   },
   {
@@ -38,11 +38,11 @@ map.on('load', () => {
   'properties': {
   'description':
   // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-  '<strong>Torchys Tacos</strong><p>Damn good tacos!</p>'
+  '<strong>Torchys Tacos</strong><p>4 Star yelp rating +/- 90 days- Damn good tacos!</p>'
   },
   'geometry': {
   'type': 'Point',
-  'coordinates': [-97.752, 30.245]
+  'coordinates': [-97.759, 30.249]
   }
   },
   {
@@ -50,11 +50,11 @@ map.on('load', () => {
   'properties': {
   'description':
   // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-  '<strong>TacoDeli</strong><p>Bienvenidos Yall</p>'
+  '<strong>TacoDeli</strong><p>Bienvenidos Yall- They suck!</p>'
   },
   'geometry': {
   'type': 'Point',
-  'coordinates': [-97.74014359, 30.31039002]
+  'coordinates': [-97.747, 30.31039002]
 }
 },
 ]
@@ -63,7 +63,7 @@ map.on('load', () => {
   
   map.addLayer({
   'id': 'places',
-  //need to change 'circle' back to original icon//
+  //need to change 'circle' back to original icon- can change to original icon, pop up function goes away//
   'type': 'circle',
   'source': 'places',
   'paint': {
