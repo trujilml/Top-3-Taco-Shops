@@ -27,11 +27,13 @@ font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: red;
 }
 
-p1 {
+p1,p3 {
 font-size: 20px;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  color: white;
 }
+
+
 
 .img-rounded{
   border-radius: 15px 15px 0px 0px;
