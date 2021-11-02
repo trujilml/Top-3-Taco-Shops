@@ -11,14 +11,12 @@ $.ajax({
 }).then(function (response) {
 
   var displayAustinWeather = $(".weather-element").append("<div>");
-  var currentAustinWeather = displayAustinWeather.append("<p>" + "Austin is currently: " + "</p>").css({ "background-color": "red", "color": "white", "font-weight": "bold" });
+  var currentAustinWeather = displayAustinWeather.css({ "background-color": "red", "color": "white", "font-weight": "bold" });
   displayAustinWeather.append(currentAustinWeather);
 
-  $(currentAustinWeather).append(`<img src="https://openweathermap.org/img/wn/${response.weather[0].icon}.png">`);
-
   var currentTemperature = currentAustinWeather.append("<p>");
-
   currentAustinWeather.append(currentTemperature);
-  currentTemperature.append("<p>" + response.main.temp + "\u2109" + "</p>");
+
+  $(currentAustinWeather).append("<p>" + response.main.temp + "°F" +`<img src="https://openweathermap.org/img/wn/${response.weather[0].icon}.png">` + "</p>");
 
 });
