@@ -160,51 +160,59 @@
     </div>
 
 
-<!-- modal 2.0 - oops I did it again -->
+    <!-- modal 2.0 - oops I did it again -->
 
 
-<!-- Simple pop-up dialog box containing a form -->
-<div class="p-3 #B71C1C red darken-2 center-align">
-  <h2>What's your favorite taco?</h2>
-  
-<dialog id="favDialog">
-  <form method="dialog">
-    <p><label>🌮The Taco List - please choose one:</label></p>
-      <select id = "select" name = "taco">
-        <option>Crossroads</option>
-        <option>Baja Shrimp</option>
-        <option>Green Chile Pork</option>
-        <option>Trailer Park</option>
-        <option>Fried Avocado</option>
-        <option>Cowboy</option>
-        <option>Shrimposito</option>
-        <option>Puerco Verde</option>
-        <option>Pollo Fantastico</option>
-        <option>Freakin' Vegan</option>
-        <option>Steak</option>
-        <option>Fish Taco</option>
-        <option>Al Pastor</option>
-        <option>Chicken</option>
-        <option>Migas</option>
-      </select>
+    <!-- Simple pop-up dialog box containing a form -->
+    <div class="p-3 #B71C1C red darken-2 center-align">
+      <h3>What's your favorite taco?</h3>
+      <form>
+        <div>
+          <label for="image">Choose taco:</label>
+          <select id="image">
+            <option value="./assets/Category_486x324_Crossroads-2.jpg" selected>Crossroads</option>
+            <<option value=./assets/Category_486x324_Baja-Shrimp-4-1.jpg">Baja Shrimp</option>
+              <!-- <option>Green Chile Pork</option>
+              <option>Trailer Park</option>
+              <option>Fried Avocado</option>
+              <option>Cowboy</option>
+              <option>Shrimposito</option>
+              <option>Puerco Verde</option>
+              <option>Pollo Fantastico</option>
+              <option>Freakin' Vegan</option>
+              <option>Steak</option>
+              <option>Fish Taco</option>
+              <option>Al Pastor</option>
+              <option>Chicken</option>
+              <option>Migas</option> -->
+          </select>
+        </div>
+    </div>
+    </form>
+    <!-- <dialog id="favDialog">
+        <form method="dialog">
+          <p><label>🌮The Taco List - please choose one:</label></p>
+          <select id="select" name="taco">
+            <option>Crossroads</option>
+            <option>Baja Shrimp</option>
+            <option>Green Chile Pork</option>
+            <option>Trailer Park</option>
+            <option>Fried Avocado</option>
+            <option>Cowboy</option>
+            <option>Shrimposito</option>
+            <option>Puerco Verde</option>
+            <option>Pollo Fantastico</option>
+            <option>Freakin' Vegan</option>
+            <option>Steak</option>
+            <option>Fish Taco</option>
+            <option>Al Pastor</option>
+            <option>Chicken</option>
+            <option>Migas</option>
+          </select> -->
 
-
-    <menu>
-      <button value="cancel" class = "white black-text btn">Cancel</button>
-      <button id="confirmBtn" value="default" class = "white black-text btn">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails" class = "white black-text btn" href="#">Choose your favorite Taco!</button>
-</menu>
-
-<output aria-live="polite"></output>
-</div>
-
-
-
+    <output aria-live="polite"></output>
+    <footer></footer>
+    <img src=./assets/Category_486x324_Crossroads-2.jpg">
 
     <!-- <div class="p-3 #B71C1C red darken-2 center-align">
     <h2>What's your favorite taco?</h2>
@@ -231,21 +239,22 @@
     <li><a href="#!">Chicken</a></li>
     <li><a href="#!">Migas</a></li>
     </ul> -->
-<!-- 
+    <!-- 
     <p id = "#select-result"></p> -->
-        
-    <!-- </div> --> 
+
+    <!-- </div> -->
 
 
-  <!-- </div> -->
-  <div id='map' style='width: 400px; height: 300px;'></div>
+    <!-- </div> -->
+    <div id='map' style='width: 400px; height: 300px;'></div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="script.js"> </script>
-  <script src="weatherpart.js"></script>
-  <script src="choose-taco-modal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"> </script>
+    <script src="weatherpart.js"></script>
+    <script src="choose-taco-modal.js"></script>
+    <script src="choosetaco.js"></script>
 </body>
 
 </html>
