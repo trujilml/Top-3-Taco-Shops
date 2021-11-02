@@ -1,9 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 h1 {
   text-align: center;
   padding: 10px 25px;
   color: red;
   margin: 0;  
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .bg {
@@ -17,20 +23,14 @@ background-position: 100%;
 
 p {
 font-size: 20px;
- font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: red;
 }
 
 p1 {
 font-size: 20px;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
- 
-}
-p3 {
-  font-size: 18px;
-  color: white;
-  
+ color: white;
 }
 
 .img-rounded{
@@ -44,13 +44,13 @@ p3 {
 
 h2{
   font-size: 40px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
   
 }
  h3 {
-  font-size: 25px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
   
  }
@@ -61,6 +61,12 @@ h2{
   
   
 }
+
+ h5 {
+   font-size: 20px;
+   font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: lighter; 
+ }
 
   .tooltip {
     position: relative;
