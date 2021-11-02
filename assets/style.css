@@ -25,32 +25,48 @@ p1 {
 font-size: 20px;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
+ 
+}
+p3 {
+  font-size: 18px;
+  color: white;
+  
 }
 
 .img-rounded{
-  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
   background-size: cover;
-  height :40%;
+  height :50%;
   
   
 }
+
+
 h2{
   font-size: 40px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
-  text-align: center;
+  
 }
  h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
-  text-align: center;
+  
  }
+ .slogan {
+	color: white;;
+	font-family: "Adobe Devanagari";
+	font-size: 18px;
+  
+  
+}
 
   .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    color: #fff;
   }
   
   .tooltip .tooltiptext {
@@ -70,7 +86,7 @@ h2{
   .tooltip .tooltiptext {
     top: -80px;
     left: 110%;
-    
+   
   }
     
   .tooltip .tooltiptext::after {
