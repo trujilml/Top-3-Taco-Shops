@@ -26,7 +26,7 @@ map.on('load', () => {
   'properties': {
   'description':
   // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-  '<strong>Veracruz All Natural</strong><p>4.5 Star yelp rating-specialty is authentic Mexican food made with fresh ingredients</p>'
+  '<strong>Veracruz All Natural</strong><p>In business since 2008, known for its fresh produce and vegetarian dishes. Locally, nationally and internationally recognized.</p>'
   },
   'geometry': {
   'type': 'Point',
@@ -38,7 +38,7 @@ map.on('load', () => {
   'properties': {
   'description':
   // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-  '<strong>Torchys Tacos</strong><p>4 Star yelp rating +/- 90 days- Damn good tacos!</p>'
+  '<strong>Torchys Tacos</strong><p>An Austin staple since 2006, the website boasts "Damn good tacos"!. Multiple reviews seem to agree.</p>'
   },
   'geometry': {
   'type': 'Point',
@@ -50,7 +50,7 @@ map.on('load', () => {
   'properties': {
   'description':
   // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-  '<strong>TacoDeli</strong><p>Bienvenidos Yall- They suck!</p>'
+  '<strong>Tacodeli</strong><p>The leader of the pack in terms of longevity, an Austin original since 1999! Breakfast starts at 7:00 and runs until 3:00 on the weekends.</p>'
   },
   'geometry': {
   'type': 'Point',
