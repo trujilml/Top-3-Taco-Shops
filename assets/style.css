@@ -2,64 +2,97 @@ html {
   scroll-behavior: smooth;
 }
 
-
+.name {
+  color: white;
+  padding:30px;
+  font-size:50px;
+}
 
 h1 {
   text-align: center;
-  padding: 10px 25px;
-  color: red;
+  
+ 
   margin: 0;  
   font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.bg {
+/* .bg {
 background-image: url(./jarritos-mexican-soda-E0txIcqePac-unsplash.jpg);
-height: 100%;
+height: 80%;
 
 background-size: cover;
 background-position: 100%;
-}
+} */
 
 
-p {
+p{
 font-size: 20px;
 font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: red;
+color : black;
+text-align:center;
 }
 
-p1 {
+p1,p3 {
 font-size: 20px;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- color: white;
+ color: black;
+ text-align:center;
 }
+p4 {
+  font-size: 15px;
+font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align:center;
 
+}
 .img-rounded{
   border-radius: 15px 15px 0px 0px;
   background-size: cover;
   height :50%;
   
+}
+
+
+.card-rounded{
+  border-radius: 0px 0px 15px 15px;
+  background-size: cover;
+  height :70%;
   
 }
+
 
 
 h2{
-  font-size: 40px;
+  font-size: 25px;
   font-family:Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
+  color: rgb(37, 12, 12);
+ text-align:center;
+ margin: 0px 20px;
+  
   
 }
+
  h3 {
   font-size: 30px;
   font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
+  color: rgb(37, 12, 12);
+  
+ 
   
  }
  .slogan {
-	color: white;;
-	font-family: "Adobe Devanagari";
-	font-size: 18px;
+	color: black;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+  text-align:center;
+  margin:30px 0px 35px 0px;
   
-  
+}
+h4 {
+  color: black;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+  text-align:center;
+  margin:30px 0px 15px 0px;  
 }
 
  h5 {
@@ -72,7 +105,9 @@ h2{
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-    color: #fff;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
   }
   
   .tooltip .tooltiptext {
@@ -99,7 +134,7 @@ h2{
     content: " ";
     position: absolute;
     top: 50%;
-    right: 100%; /* To the left of the tooltip */
+    /* right: 100%; To the left of the tooltip */
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
@@ -127,8 +162,8 @@ h2{
 }
 
 #map {
-  height: 30vh;
-  width: 99vw;
+  height: 50vh; /*original value = 30 */
+  width: auto; /*original value = 99 */
 }
 
 .mapboxgl-popup {
@@ -180,5 +215,4 @@ select {
   border-style: solid;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   border-image: initial;
-  border-radius: 0px;
-}
+  border-ra
