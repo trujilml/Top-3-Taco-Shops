@@ -5,34 +5,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
   <link rel="stylesheet" href="./assets/style.css" />
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
 
-  <title>Taco Shop Locator</title>
+  <title>Top 3 Taco Shops in Austin</title>
 
 </head>
 
 <body>
-  <h1>Taco Shops 🌮 in North Austin</h1>
 
-  <p class="weather-element #ffffff white"></p>
-
-  <div class="bg">
+  <div class="container #bdbdbd grey lighten-2">
+    <header class="intro">
+      <div class="col m5  #c62828 red darken-3 white-text row" id="header">
+        <h1 class="col l2 #b71c1c red darken-4 white-text left-align">TOP 3</h1>
+        <h2>Taco Shops in Austin</h2>
+      </div>
+      <div >
+        <p class="col s2  black-text center-align">Any day is a good day for a taco.</p>
+        <p class="weather-element  center-align"></p>
+      </div>
+    </header>
+    <div class="bg">
+    </div>
     <div class="row" id="cards">
-      <div class="row mx-md-n ">
-        <div class="col m3 px-md-5">
-          <div class="p-3 #bf360c deep-orange darken-4 img-rounded">
+      <div class="row mx-md-n">
+        <div class="col m4 px-md-5" id="card-size">
+          <img class="responsive-img img-rounded" src="assets/torchys-congress-square.jpeg">
+          <div class="p-3 #bbdefb blue lighten-4   card-rounded">
+
             <h2>Torchy's Tacos</h2>
-            <p>"Damn Good Tacos"</p>
-            <p1>1822 S Congress Ave, Austin, TX 78704<br>
+            <h4 class="slogan">"Damn Good Tacos"</h4>
+            <p3>Address: 1822 S Congress Ave, Austin, TX 78704<br>
               Phone: (512) 916-9025
-            </p1>
+            </p3>
             <h3>Top picks:</h3>
             <div class="tooltip">Crossroads
               <span class="tooltiptext">
-                smoked beef brisket, grilled onions, jalapeños, cilantro, avocado & jack cheese with tomatillo sauce on
+                smoked beef brisket, grilled onions, jalapeños, cilantro, avocado & jack cheese with tomatillo sauce
+                on
                 a corn tortilla.
               </span>
             </div>
@@ -53,26 +68,29 @@
             </br>
             <div class="tooltip">Trailer Park
               <span class="tooltiptext">
-                fried chicken, green chiles, lettuce, pico de gallo & cheddar jack cheese with poblano sauce on a flour
+                fried chicken, green chiles, lettuce, pico de gallo & cheddar jack cheese with poblano sauce on a
+                flour
                 tortilla. “get it trashy” – take off the lettuce & add queso (cal 382).
               </span>
             </div>
             </br>
             <div class="tooltip">Fried Avocado
               <span class="tooltiptext">
-                fried avocados, refried pinto beans, pico de gallo, lettuce, and cheddar jack cheese with poblano sauce
+                fried avocados, refried pinto beans, pico de gallo, lettuce, and cheddar jack cheese with poblano
+                sauce
                 on a corn tortilla
               </span>
             </div>
           </div>
         </div>
-        <div class="col m3 px-md-5">
-          <div class="p-3 #bf360c deep-orange darken-4 img-rounded">
+        <div class="col m4 px-md-5" id="card-size">
+          <img class="responsive-img img-rounded" src="assets/tacodeli-gracy-farms.jpeg">
+          <div class="p-3 #bbdefb blue lighten-4 card-rounded">
             <h2>Taco Deli</h2>
-            <p>Award-winning tacos and salsa</p>
-            <p1>12001 Burnet Rd, Austin, TX 78758 <br>
+            <h4 class="slogan">Award-winning tacos and salsa</h4>
+            <p3>Address: 12001 Burnet Rd, Austin, TX 78758 <br>
               Phone: (512) 339-1700
-            </p1>
+            </p3>
             <h3>Top picks:</h3>
             <div class="tooltip">Cowboy
               <span class="tooltiptext">
@@ -104,12 +122,17 @@
               </span>
             </div>
           </div>
+
         </div>
-        <div class="col m3 px-md-5">
-          <div class="p-3 #bf360c deep-orange darken-4 img-rounded">
+        <div class="col m4 px-md-5" id="card-size">
+          <img class="responsive-img img-rounded" src="assets/veracruz-east-austin.jpeg">
+          <div class="p-3 #bbdefb blue lighten-4 card-rounded">
             <h2>Veracruz All Natural</h2>
-            <p>Featured on Food Network's 5 Best Tacos in America</p>
-            <h3>Favorites</h3>
+            <h4 class="slogan">Featured on Food Network's 5 Best Tacos in America</h4>
+            <p3>Address: 2505 Webberville Rd, Austin, TX 78702<br>
+              Phone: (512) 981-1760
+            </p3>
+            <h3>Top picks</h3>
             <div class="tooltip">Steak
               <span class="tooltiptext">
                 Fajita beef, cilantro, onions
@@ -140,97 +163,55 @@
               </span>
             </div>
           </div>
+
         </div>
       </div>
     </div>
 
+    <!-- Simple pop-up dialog box containing a form -->
+    <div class="p-3 #bbdefb blue lighten-2 center-align ">
+      <h3>What's your favorite taco?</h3>
+      <form>
+        <div>
+          <select id="selectBox">
+            <option value="">
+              <script type="text/javascript" src="js/choosetaco.js"></script>
+            </option>
+            <option value"" selected>Select a taco</option>
+            <option value="Crossroads">Crossroads</option>
+            <option value="Baja Shrimp">Baja Shrimp</option>
+            <option value="Green Chile Pork">Green Chile Pork</option>
+            <option value="Trailer Park">Trailer Park</option>
+            <option value="Fried Avocado">Fried Avocado</option>
+            <option value="Cowboy">Cowboy</option>
+            <option value="Shrimposito">Shrimposito</option>
+            <option value="Puerco Verde">Puerco Verde</option>
+            <option value="Pollo Fantastico">Pollo Fantastico</option>
+            <option value="Freakin' Vegan">Freakin' Vegan</option>
+            <option value="Steak">Steak</option>
+            <option value="Fish Taco">Fish Taco</option>
+            <option value="Al Pastor">Al Pastor</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Migas">Migas</option>
+          </select>
+        </div>
+    </div>
+    </form>
 
-<!-- modal 2.0 - oops I did it again -->
+    <div id='map'></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script src="weatherpart.js"></script>
+    <script src="choosetaco.js"></script>
+    <script src="localstorage.js"></script>
 
-
-<!-- Simple pop-up dialog box containing a form -->
-<div class="p-3 #B71C1C red darken-2 center-align">
-  <h2>What's your favorite taco?</h2>
-  
-<dialog id="favDialog">
-  <form method="dialog">
-    <p><label>🌮The Taco List - please choose one:</label></p>
-      <select id = "select" name = "taco">
-        <option>Crossroads</option>
-        <option>Baja Shrimp</option>
-        <option>Green Chile Pork</option>
-        <option>Trailer Park</option>
-        <option>Fried Avocado</option>
-        <option>Cowboy</option>
-        <option>Shrimposito</option>
-        <option>Puerco Verde</option>
-        <option>Pollo Fantastico</option>
-        <option>Freakin' Vegan</option>
-        <option>Steak</option>
-        <option>Fish Taco</option>
-        <option>Al Pastor</option>
-        <option>Chicken</option>
-        <option>Migas</option>
-      </select>
-
-
-    <menu>
-      <button value="cancel" class = "white black-text btn">Cancel</button>
-      <button id="confirmBtn" value="default" class = "white black-text btn">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails" class = "white black-text btn" href="#">Choose your favorite Taco!</button>
-</menu>
-
-<output aria-live="polite"></output>
-</div>
-
-
-
-
-    <!-- <div class="p-3 #B71C1C red darken-2 center-align">
-    <h2>What's your favorite taco?</h2>
-    <a class='white black-text dropdown-trigger btn' href='#' data-target='dropdown1'>Choose a taco!</a>
-
-    Dropdown Structure for taco list - SHOULD NOT BE VISIBLE-->
-    <!-- <ul id='dropdown1' class='dropdown-content'>
-    <li class="divider" tabindex="-1">Torchy's Tacos</li>
-    <li><a href="#!">Crossroads</a></li>
-    <li><a href="#!">Baja Shrimp</a></li>
-    <li><a href="#!">Green Chile Pork</a></li>
-    <li><a href="#!">Trailer Park</a></li>
-    <li><a href="#!">Fried Avocado</a></li>
-    <li class="divider" tabindex="-1">Taco Deli</li>
-    <li><a href="#!">Cowboy</a></li>
-    <li><a href="#!">Shrimposito</a></li>
-    <li><a href="#!">Puerco Verde</a></li>
-    <li><a href="#!">Pollo Fantastico</a></li>
-    <li><a href="#!">Freakin' Vegan</a></li>
-    <li class="divider" tabindex="-1">Veracruz All Natural</li>
-    <li><a href="#!">Steak</a></li>
-    <li><a href="#!">Fish Taco</a></li>
-    <li><a href="#!">Al Pastor</a></li>
-    <li><a href="#!">Chicken</a></li>
-    <li><a href="#!">Migas</a></li>
-    </ul> -->
-<!-- 
-    <p id = "#select-result"></p> -->
-        
-    <!-- </div> --> 
-
-
-  <!-- </div> -->
-  <div id='map' style='width: 400px; height: 300px;'></div>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="script.js"> </script>
-  <script src="weatherpart.js"></script>
-  <script src="choose-taco-modal.js"></script>
+    <footer>
+      <p class="center-align">Made with ❤️ for tacos 🌮</p>
+      <p class="center-align">Contributors: Akhila, Jeff, Kevin, Mickey</p>
+    </footer>
+  </div>
 </body>
 
 </html>

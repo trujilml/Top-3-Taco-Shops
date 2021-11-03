@@ -1,56 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 h1 {
   text-align: center;
   padding: 10px 25px;
   color: red;
   margin: 0;  
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.bg {
+/* .bg {
 background-image: url(./jarritos-mexican-soda-E0txIcqePac-unsplash.jpg);
-height: 100%;
+height: 80%;
 
 background-size: cover;
 background-position: 100%;
+} */
+.row {
+  
+ 
 }
 
-
-p {
+p{
 font-size: 20px;
- font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: red;
+font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color : black;
+text-align:center;
 }
 
-p1 {
+p1,p3 {
 font-size: 20px;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
+ color: black;
+ text-align:center;
 }
 
 .img-rounded{
-  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
   background-size: cover;
-  height :40%;
-  
+  height :50%;
   
 }
+
+.card-rounded{
+  border-radius: 0px 0px 15px 15px;
+  background-size: cover;
+  height :50%;
+  
+}
+
 h2{
-  font-size: 40px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
-  text-align: center;
+  font-size: 30px;
+  font-family:Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+ text-align:center;
+ margin: 0px 20px;
+  
+  
 }
+
  h3 {
   font-size: 30px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
-  text-align: center;
+  font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  
+  
+ }
+ .slogan {
+	color: black;
+	font-family: "Adobe Devanagari";
+	font-size: 18px;
+  text-align:center;
+  
+  
+}
+
+
+ h5 {
+   font-size: 20px;
+   font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: lighter; 
  }
 
   .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    color: black;
   }
   
   .tooltip .tooltiptext {
@@ -70,14 +109,14 @@ h2{
   .tooltip .tooltiptext {
     top: -80px;
     left: 110%;
-    
+   
   }
     
   .tooltip .tooltiptext::after {
     content: " ";
     position: absolute;
     top: 50%;
-    right: 100%; /* To the left of the tooltip */
+    /* right: 100%; To the left of the tooltip */
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
@@ -103,4 +142,60 @@ h2{
   background-color: lightgrey;
   color: gray;
 }
+
+#map {
+  height: 50vh; /*original value = 30 */
+  width: auto; /*original value = 99 */
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  }
+
+
   
+/* for choose a taco button and hover features*/
+.btn {
+  border-radius: 15px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  background-color: white;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+  color: gray;
+}
+
+form div option {
+  height: 2rem;
+}
+
+select {
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  cursor: default;
+  margin: 0em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  border-radius: 0px;
+}
