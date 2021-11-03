@@ -34,7 +34,7 @@ After viewing the dropdown content, the user is able to see the map highlighting
 <!-- deployed website once everything is pushed into main -->
 
 ## Further Development and Future Notes
-<!-- here we can be able to demonstrate personal concerns with failed implements of website, what we can include for future versions of the website and what would fit with tacos -->
+<!-- here we can be able to demonstrate personal concerns with failed implements of website, what we can include for future versions of the website and what would fit with tacos -->                                                   
 
 ## Special Thanks
 Special thanks to our instructor Torre Taylor and our teaching assistants at The Coding Bootcamp at the University of Texas at Austin. 🤘🏼
