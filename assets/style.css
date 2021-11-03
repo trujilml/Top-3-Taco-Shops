@@ -54,10 +54,12 @@ font-size: 20px;
   
 }
 
+
+
 h2{
-  font-size: 30px;
+  font-size: 25px;
   font-family:Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: black;
+  color: rgb(37, 12, 12);
  text-align:center;
  margin: 0px 20px;
   
@@ -67,8 +69,9 @@ h2{
  h3 {
   font-size: 30px;
   font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: black;
+  color: rgb(37, 12, 12);
   
+ 
   
  }
  .slogan {
@@ -76,10 +79,16 @@ h2{
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 20px;
   text-align:center;
-  
+  margin:30px 0px 35px 0px;
   
 }
-
+h4 {
+  color: black;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+  text-align:center;
+  margin:30px 0px 15px 0px;  
+}
 
  h5 {
    font-size: 20px;
