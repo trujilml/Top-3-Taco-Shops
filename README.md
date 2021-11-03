@@ -30,7 +30,7 @@ After viewing the dropdown content, the user is able to see the map highlighting
 
 ## Repository Link and Deployed Application Website
 * Project Repository - https://github.com/trujilml/taco-shop-locator 
-* Deployed Website - 
+* Deployed Website - https://trujilml.github.io/taco-shop-locator/ 
 <!-- deployed website once everything is pushed into main -->
 
 ## Further Development and Future Notes
