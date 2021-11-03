@@ -1,4 +1,4 @@
-# Top 3 - Taco Shop Locator for Austin, Texas
+# Top 3 Taco Shops
 
 ## Application Purpose
 Top 3 is a taco shop locator that spots out the top three taco shops in Austin, Texas and allows users to view these three taco shops and their popular offerings, followed by voting for their favorite taco from that respective shop, and viewing the map below that shows the exact map location of their favorite taco shop.
