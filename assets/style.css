@@ -19,18 +19,23 @@ height: 80%;
 background-size: cover;
 background-position: 100%;
 } */
+.row {
+  
+ 
+}
 
-
-p {
+p{
 font-size: 20px;
 font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: red;
+color : black;
+text-align:center;
 }
 
 p1,p3 {
 font-size: 20px;
  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- color: white;
+ color: black;
+ text-align:center;
 }
 
 .img-rounded{
@@ -50,23 +55,29 @@ font-size: 20px;
 h2{
   font-size: 30px;
   font-family:Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
+  color: black;
+ text-align:center;
+ margin: 0px 20px;
+  
   
 }
 
  h3 {
   font-size: 30px;
   font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
+  color: black;
+  
   
  }
  .slogan {
-	color: white;
+	color: black;
 	font-family: "Adobe Devanagari";
 	font-size: 18px;
+  text-align:center;
   
   
 }
+
 
  h5 {
    font-size: 20px;
@@ -78,7 +89,7 @@ h2{
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-    color: #fff;
+    color: black;
   }
   
   .tooltip .tooltiptext {
@@ -105,7 +116,7 @@ h2{
     content: " ";
     position: absolute;
     top: 50%;
-    right: 100%; /* To the left of the tooltip */
+    /* right: 100%; To the left of the tooltip */
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
@@ -133,7 +144,7 @@ h2{
 }
 
 #map {
-  height: 100vh; /*original value = 30 */
+  height: 50vh; /*original value = 30 */
   width: auto; /*original value = 99 */
 }
 
