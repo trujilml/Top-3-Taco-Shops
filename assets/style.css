@@ -2,12 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
-
+.name {
+  color: white;
+  padding:30px;
+  font-size:50px;
+}
 
 h1 {
   text-align: center;
-  padding: 10px 25px;
-  color: red;
+  
+ 
   margin: 0;  
   font-family: Arimo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -19,10 +23,7 @@ height: 80%;
 background-size: cover;
 background-position: 100%;
 } */
-.row {
-  
- 
-}
+
 
 p{
 font-size: 20px;
@@ -45,10 +46,11 @@ font-size: 20px;
   
 }
 
+
 .card-rounded{
   border-radius: 0px 0px 15px 15px;
   background-size: cover;
-  height :50%;
+  height :70%;
   
 }
 
@@ -71,8 +73,8 @@ h2{
  }
  .slogan {
 	color: black;
-	font-family: "Adobe Devanagari";
-	font-size: 18px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
   text-align:center;
   
   
@@ -90,6 +92,8 @@ h2{
     display: inline-block;
     border-bottom: 1px dotted black;
     color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
   }
   
   .tooltip .tooltiptext {
