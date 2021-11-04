@@ -47,8 +47,8 @@ After viewing the dropdown content, the user is able to see the map highlighting
 * Built and designed the presentation
 
 ## Repository Link and Deployed Application Website
-* Project Repository - https://github.com/trujilml/Top-3-Taco-Shops
-* Deployed Website - https://trujilml.github.io/Top-3-Taco-Shops/
+* Project Repository - https://github.com/trujilml/top-3-taco-shops
+* Deployed Website - https://trujilml.github.io/top-3-taco-shops/
 
 ## Further Development and Future Notes
 <!-- here we can be able to demonstrate personal concerns with failed implements of website, what we can include for future versions of the website and what would fit with tacos -->     
