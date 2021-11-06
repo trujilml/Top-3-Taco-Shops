@@ -26,25 +26,23 @@ After viewing the dropdown content, the user is able to see the map highlighting
 
 ## Developer work committed
 * Kevin A. 
-Provided research and pictures of the taco shops
-listed Taco Ingredients and enabled toolpick feature for users to view it on the Top Picks list
-established the Choose a Taco feature, its dropdown selection, and local storage of saved taco 
-developed initial map with the Mapbox API with zoom function and full screen function.
+- Provided research and pictures of the taco shops, listed Taco Ingredients and enabled toolpick feature for users to view it on the Top Picks list, established the Choose a Taco feature, its dropdown selection, and local storage of saved taco 
+- developed initial map with the Mapbox API with zoom function and full screen function.
 
 * Akhila S.
-Created inital website and design
-Designed web page with the Materialize framework 
-Designed cards with CSS styling
+- Created inital website and design
+- Designed web page with the Materialize framework 
+- Designed cards with CSS styling
 
 * Mickey T. 
-Implemented Header design for website 
-Created temperature and weather image display for the current Austin weather forecast using the OpenWeather Map's One Call Weather API and jQuery 
-GitHub Repository Manager - overviewed the GitHub repository for the project, made sure everyone was able to push and pull their respective project files, overviewed the main website and contributions.
-Created and completed the README for project
+- Implemented Header design for website 
+- Created temperature and weather image display for the current Austin weather forecast using the OpenWeather Map's One Call Weather API and jQuery 
+- GitHub Repository Manager - overviewed the GitHub repository for the project, made sure everyone was able to push and pull their respective project files, overviewed the main website and contributions.
+- Created and completed the README for project
 
 * Jeff W. 
-Mapbox API Lead - added taco shop locations locations, hover features, and points of interests for the map api 
-Built and designed the presentation
+- Mapbox API Lead - added taco shop locations locations, hover features, and points of interests for the map api 
+- Built and designed the presentation
 
 ## Repository Link and Deployed Application Website
 * Project Repository - https://github.com/trujilml/top-3-taco-shops
@@ -52,12 +50,11 @@ Built and designed the presentation
 
 ## Further Development and Future Notes  
 * Mickey: Margarita/alcohol/beer locator
-Additional card highlighting whether the taco shop offers alcohol at their specific location. 
-Torchy’s, Tacodeli serves alcohol/beer; Veracruz does not.
+- Additional card highlighting whether the taco shop offers alcohol at their specific location. Torchy’s, Tacodeli serves alcohol/beer; Veracruz does not.
 
 * Kevin: Dark mode
-Add a button to toggle between light and dark mode. 
-We will also add code to let the user’s operating system do that lifting for us by saving the user’s selection so that it will be applied consistently throughout the site and on subsequent visits. To do that, we can save the user’s choice to the localStorage when the theme is toggled using Pure CSS or JavaScript. 
+- Add a button to toggle between light and dark mode. 
+- We will also add code to let the user’s operating system do that lifting for us by saving the user’s selection so that it will be applied consistently throughout the site and on subsequent visits. To do that, we can save the user’s choice to the localStorage when the theme is toggled using Pure CSS or JavaScript. 
 
 ## Special Thanks
 Special thanks to our instructor Torre Taylor and our teaching assistants at The Coding Bootcamp at the University of Texas at Austin. 🤘🏼
