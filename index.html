@@ -168,50 +168,46 @@
       </div>
     </div>
 
+    <div id='map'></div>
+
     <!-- Simple pop-up dialog box containing a form -->
     <div class="p-3 #bbdefb blue lighten-2 center-align ">
       <h3>What's your favorite taco?</h3>
-      <form>
-        <div>
-          <select id="selectBox">
-            <option value="">
-              <script type="text/javascript" src="js/choosetaco.js"></script>
-            </option>
-            <option value"" selected>Select a taco</option>
-            <option value="Crossroads">Crossroads</option>
-            <option value="Baja Shrimp">Baja Shrimp</option>
-            <option value="Green Chile Pork">Green Chile Pork</option>
-            <option value="Trailer Park">Trailer Park</option>
-            <option value="Fried Avocado">Fried Avocado</option>
-            <option value="Cowboy">Cowboy</option>
-            <option value="Shrimposito">Shrimposito</option>
-            <option value="Puerco Verde">Puerco Verde</option>
-            <option value="Pollo Fantastico">Pollo Fantastico</option>
-            <option value="Freakin' Vegan">Freakin' Vegan</option>
-            <option value="Steak">Steak</option>
-            <option value="Fish Taco">Fish Taco</option>
-            <option value="Al Pastor">Al Pastor</option>
-            <option value="Chicken">Chicken</option>
-            <option value="Migas">Migas</option>
-          </select>
-        </div>
+      <button class="favorite">
+        <select id="selectBox">
+          <option id="select" value="">Select a taco</option>
+          <option id="crossroads" value="Crossroads">Crossroads</option>
+          <option id="bajashrimp" value="Baja Shrimp">Baja Shrimp</option>
+          <option id="greenchile" value="Green Chile Pork">Green Chile Pork</option>
+          <option id="trailerpark" value="Trailer Park">Trailer Park</option>
+          <option id="fried" value="Fried Avocado">Fried Avocado</option>
+          <option id="cowboy" value="Cowboy">Cowboy</option>
+          <option id="shrimposito" value="Shrimposito">Shrimposito</option>
+          <option id="puercoverde" value="Puerco Verde">Puerco Verde</option>
+          <option id="pollo" value="Pollo Fantastico">Pollo Fantastico</option>
+          <option id="vegan" value="Freakin' Vegan">Freakin' Vegan</option>
+          <option id="steak" value="Steak">Steak</option>
+          <option id="fish" value="Fish Taco">Fish Taco</option>
+          <option id="alpastor" value="Al Pastor">Al Pastor</option>
+          <option id="chicken" value="Chicken">Chicken</option>
+          <option id="migas" value="Migas">Migas</option>
+        </select>
+      </button>
+
+      <div id="result"></div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="weatherpart.js"></script>
+      <script src="choosetaco.js"></script>
+      <script src="script.js"></script>
+
+      <footer class="#c62828 red darken-3 white-text center-align">
+        <p4>Made with ❤️ for tacos 🌮</p>
+          <p4>Contributors: Akhila, Jeff, Kevin, Mickey</p>
+      </footer>
     </div>
-    </form>
-
-    <div id='map'></div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
-    <script src="weatherpart.js"></script>
-    <script src="choosetaco.js"></script>
-    <script src="localstorage.js"></script>
-
-    <footer class="#c62828 red darken-3 white-text center-align">
-      <p4>Made with ❤️ for tacos 🌮</p>
-        <p4>Contributors: Akhila, Jeff, Kevin, Mickey</p>
-    </footer>
-  </div>
 </body>
 
 </html>
