@@ -36,7 +36,7 @@ map.on('load', () => {
             'description':
               // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
               //'<strong>Torchys Tacos</strong><p>4 Star yelp rating +/- 90 days- Damn good tacos!</p>'
-              '<strong>Torchys Tacos</strong><p>An Austin staple since 2006, the website boasts "Damn Good Tacos!" Multiple reviews seem to agree.</p>'
+              '<strong>Torchy`s Tacos</strong><p>An Austin staple since 2006, Torchy`s boasts "Damn Good Tacos!" Visit this original location!</p>'
           },
           'geometry': {
             'type': 'Point',

@@ -50,16 +50,14 @@ After viewing the dropdown content, the user is able to see the map highlighting
 * Project Repository - https://github.com/trujilml/top-3-taco-shops
 * Deployed Website - https://trujilml.github.io/top-3-taco-shops/
 
-## Further Development and Future Notes
-<!-- here we can be able to demonstrate personal concerns with failed implements of website, what we can include for future versions of the website and what would fit with tacos -->     
-* Mickey: Margarita/alcohol/beed locator
+## Further Development and Future Notes  
+* Mickey: Margarita/alcohol/beer locator
 Additional card highlighting whether the taco shop offers alcohol at their specific location. 
 Torchy’s, Tacodeli serves alcohol/beer; Veracruz does not.
 
 * Kevin: Dark mode
 Add a button to toggle between light and dark mode. 
 We will also add code to let the user’s operating system do that lifting for us by saving the user’s selection so that it will be applied consistently throughout the site and on subsequent visits. To do that, we can save the user’s choice to the localStorage when the theme is toggled using Pure CSS or JavaScript. 
-
 
 ## Special Thanks
 Special thanks to our instructor Torre Taylor and our teaching assistants at The Coding Bootcamp at the University of Texas at Austin. 🤘🏼
