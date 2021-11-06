@@ -3,6 +3,9 @@
 ## Application Purpose
 Top 3 is a taco shop locator that spots out the top three taco shops in Austin, Texas and allows users to view these three taco shops and their popular offerings, followed by voting for their favorite taco from that respective shop, and viewing the map below that shows the exact map location of their favorite taco shop.
 
+![Screenshot 1](./assets/tacoshophomepage1.png);
+![Screenshot 2](./assets/tacoshophomepage2.png);
+
 ## Application Demonstration
 When users visit the Top 3 website, they are introducted to a major header showing the official website logo, a phrase indicating its purpose ("Taco Shops in Austin"), its slogan ("Any day is a good day for a taco!") which brings significance for the current weather forecast indicator right next to it. The weather forecast includes an icon highlighting the current weather in Austin followed by its temperature in farenheit degrees. This was developed with the use of the OpenWeather One Call API which fetches current weather forecasts from any city in the world.
 
@@ -20,7 +23,7 @@ After viewing the dropdown content, the user is able to see the map highlighting
 * CSS
 * JavaScript 
 * Materialize - CSS Framework that provides modern responsive web design and was used to establish the modern design for the website. 
-* Mapbox GL JS - client-side JavaScript library used for building maps and adding user interactivity and customization. Mapbox was used to create the map element for the website and added exact location data of the taco shops.
+* Mapbox GL JS API - client-side JavaScript library used for building maps and adding user interactivity and customization. Mapbox was used to create the map element for the website and added exact location data of the taco shops.
 * OpenWeather - One Call API: This API was used to collect the information that directly pulls the current weather forecast for a specific city, which is Austin, Texas for this application. With AJAX, it pulls information of the URL and with jQuery, appended the information to its own div content to display the weather forecast with the current temperature and an appended image source highlighting the current weather status.
 * jQuery & jQuery UI - jQuery was implemented in this application in numerous ways. It allowed its use to function with both the OpenWeather and Mapbox APIs to allow the map to display its coordinates of the taco shop location and display the current weather forecast for Austin, Texas. 
 
