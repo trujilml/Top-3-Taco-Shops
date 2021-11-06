@@ -1,3 +1,4 @@
+// for local storage
 $(document).ready(function () {
   $('#selectBox').change(function () {
     localStorage.setItem('myFavoriteTaco', $(this).val());
@@ -9,7 +10,8 @@ $(document).ready(function () {
     }
     else {
       var currentTaco = localStorage.getItem('myFavoriteTaco')
-      var currentTacoID = ""
+      var currentTacoId = ""
+      // switch statement for favorite tacos https://www.w3schools.com/js/js_switch.asp
       switch (currentTaco) {
         case "Crossroads":
           currentTacoId = "#Crossroads";
@@ -61,8 +63,9 @@ $(document).ready(function () {
       var currentTacoEl = document.querySelector(currentTacoId)
       currentTacoEl.setAttribute("selected", "true")
 
+      // once user selects a taco, text content displays current selected taco
       const result = document.querySelector('#result');
-      result.textContent = `You like ${currentTaco}`;
+      result.textContent = `You like ${currentTaco}! Feel free to choose another taco to enjoy!`;
     }
   });
 });

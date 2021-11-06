@@ -19,24 +19,28 @@
 
 <body>
 
+  <!-- header - top 3 taco shops in Austin -->
   <div class="container #bdbdbd grey lighten-2">
     <header class="intro">
       <div class="col m5  #c62828 red darken-3 white-text row">
-        <h1 class="col l2 #b71c1c red darken-4 white-text left-align">TOP 3</h1>
-        <h2 class="name">Taco Shops in Austin</h2>
+        <h1 class="name">Top 3 Taco Shops in Austin</h1>
       </div>
+      <!-- weather status with use of openweathermap one call api -->
       <div>
         <p class="col s2  black-text center-align">Any day is a good day for a taco.</p>
-        <p class="weather-element  center-align"></p>
+        <p class="weather-element center-align"></p>
       </div>
     </header>
+
     <div class="bg">
     </div>
+
+<!-- cards of torchys tacos, taco deli, and veracruz all natural -->
     <div class="row" id="cards">
       <div class="row mx-md-n">
         <div class="col m4 px-md-5" id="card-size">
           <img class="responsive-img img-rounded" src="assets/torchys-congress-square.jpeg">
-          <div class="p-3 #bbdefb blue lighten-4   card-rounded">
+          <div class="p-3 #bbdefb blue lighten-4  card-rounded">
 
             <h2>Torchy's Tacos</h2>
             <h4 class="slogan">"Damn Good Tacos"</h4>
@@ -132,7 +136,7 @@
             <p3><b>Address:</b><br> 2505 Webberville Rd.,<br> Austin, TX 78702<br>
               <b>Phone:</b> <br>(512) 981-1760
             </p3>
-            <h5>Top picks</h5>
+            <h5>Top picks:</h5>
             <div class="tooltip">Steak
               <span class="tooltiptext">
                 Fajita beef, cilantro, onions
@@ -168,10 +172,9 @@
       </div>
     </div>
 
-    <div id='map'></div>
 
-    <!-- Simple pop-up dialog box containing a form -->
-    <div class="p-3 #bbdefb blue lighten-2 center-align ">
+    <!-- Simple pop-up dialog box containing a form and button -->
+    <div class="p-3 #E53935 red darken-1 center-align ">
       <h3>What's your favorite taco?</h3>
       <button class="favorite">
         <select id="selectBox">
@@ -196,6 +199,9 @@
 
       <div id="result"></div>
 
+      <!-- Mapbox GL JS API - map of the 3 taco shops -->
+      <div id='map'></div>
+
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -204,7 +210,7 @@
       <script src="script.js"></script>
 
       <footer class="#c62828 red darken-3 white-text center-align">
-        <p4>Made with ❤️ for tacos 🌮</p>
+        <p4>Made with ❤️ for tacos 🌮  </p>
           <p4>Contributors: Akhila, Jeff, Kevin, Mickey</p>
       </footer>
     </div>

@@ -1,7 +1,6 @@
+//Jeff's personal access token for mapbox gl js
 mapboxgl.accessToken = 'pk.eyJ1IjoiZmlzaGRlc3Ryb3llciIsImEiOiJja3ZhaGIwam9hZGNmMnFtYWJoeWY2eDZ5In0.cTey3m_BuUWk9ZIp0n1AhQ';
-//mapboxgl.accessToken = 'pk.eyJ1IjoiZmlzaGRlc3Ryb3llciIsImEiOiJja3ZhOXZrYmowMWF3MnVwMXR2Y2xrZ2hvIn0.upIyfuHDvxKbBv_VGVSwPw';
-//mapbox://styles/fishdestroyer/ckvaf22yi1dyv14teexn4pdq1/draft- draft of maps
-//mapbox://styles/fishdestroyer/ckvaf22yi1dyv14teexn4pdq1
+
 //below shows to be a const rather than a var- results did not work correctly
 var map = new mapboxgl.Map({
   container: 'map',
@@ -22,7 +21,6 @@ map.on('load', () => {
           'properties': {
             'description':
               // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-              //'<strong>Veracruz All Natural</strong><p>4.5 Star yelp rating-specialty is authentic Mexican food made with fresh ingredients</p>'
               '<strong>Veracruz All Natural</strong><p>In business since 2008. Known for its fresh produce and vegetarian dishes, Veracruz All Natural is recognized locally, nationally, and internationally.</p>'
           },
           'geometry': {
@@ -35,7 +33,6 @@ map.on('load', () => {
           'properties': {
             'description':
               // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-              //'<strong>Torchys Tacos</strong><p>4 Star yelp rating +/- 90 days- Damn good tacos!</p>'
               '<strong>Torchy`s Tacos</strong><p>An Austin staple since 2006, Torchy`s boasts "Damn Good Tacos!" Visit this original location!</p>'
           },
           'geometry': {
@@ -48,7 +45,6 @@ map.on('load', () => {
           'properties': {
             'description':
               // added rest. name and matching latitude and longitude will change the <p> with better descriptions//
-              //'<strong>TacoDeli</strong><p>Bienvenidos Yall- They suck!</p>'
               '<strong>Tacodeli</strong><p>The leader of the pack in terms of longevity. An Austin original since 1999! Breakfast starts at 7:00a.m. and runs until 3:00p.m. on the weekends.</p>'
           },
           'geometry': {
